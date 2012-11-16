@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E7A70F1655D62000214947 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7A70E1655D62000214947 /* Cocoa.framework */; };
+		70E7A7191655D62000214947 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70E7A7171655D62000214947 /* InfoPlist.strings */; };
+		70E7A71B1655D62000214947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E7A71A1655D62000214947 /* main.m */; };
+		70E7A71F1655D62000214947 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 70E7A71D1655D62000214947 /* Credits.rtf */; };
+		70E7A7221655D62000214947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E7A7211655D62000214947 /* AppDelegate.m */; };
+		70E7A7251655D62000214947 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70E7A7231655D62000214947 /* MainMenu.xib */; };
+		70E7A72D1655D62000214947 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7A72C1655D62000214947 /* SenTestingKit.framework */; };
+		70E7A72E1655D62000214947 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7A70E1655D62000214947 /* Cocoa.framework */; };
+		70E7A7361655D62000214947 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70E7A7341655D62000214947 /* InfoPlist.strings */; };
+		70E7A7391655D62000214947 /* reaper_glowzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E7A7381655D62000214947 /* reaper_glowzTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70E7A72F1655D62000214947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70E7A7011655D62000214947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70E7A7091655D62000214947;
+			remoteInfo = "reaper glowz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70E7A70A1655D62000214947 /* reaper glowz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reaper glowz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E7A70E1655D62000214947 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		70E7A7111655D62000214947 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		70E7A7121655D62000214947 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		70E7A7131655D62000214947 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70E7A7161655D62000214947 /* reaper glowz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "reaper glowz-Info.plist"; sourceTree = "<group>"; };
+		70E7A7181655D62000214947 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70E7A71A1655D62000214947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70E7A71C1655D62000214947 /* reaper glowz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reaper glowz-Prefix.pch"; sourceTree = "<group>"; };
+		70E7A71E1655D62000214947 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		70E7A7201655D62000214947 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70E7A7211655D62000214947 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70E7A7241655D62000214947 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		70E7A72B1655D62000214947 /* reaper glowzTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reaper glowzTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E7A72C1655D62000214947 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		70E7A7331655D62000214947 /* reaper glowzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "reaper glowzTests-Info.plist"; sourceTree = "<group>"; };
+		70E7A7351655D62000214947 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70E7A7371655D62000214947 /* reaper_glowzTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reaper_glowzTests.h; sourceTree = "<group>"; };
+		70E7A7381655D62000214947 /* reaper_glowzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reaper_glowzTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E7A7071655D62000214947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7A70F1655D62000214947 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E7A7271655D62000214947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7A72D1655D62000214947 /* SenTestingKit.framework in Frameworks */,
+				70E7A72E1655D62000214947 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E7A6FF1655D62000214947 = {
+			isa = PBXGroup;
+			children = (
+				70E7A7141655D62000214947 /* reaper glowz */,
+				70E7A7311655D62000214947 /* reaper glowzTests */,
+				70E7A70D1655D62000214947 /* Frameworks */,
+				70E7A70B1655D62000214947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70E7A70B1655D62000214947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E7A70A1655D62000214947 /* reaper glowz.app */,
+				70E7A72B1655D62000214947 /* reaper glowzTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E7A70D1655D62000214947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70E7A70E1655D62000214947 /* Cocoa.framework */,
+				70E7A72C1655D62000214947 /* SenTestingKit.framework */,
+				70E7A7101655D62000214947 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70E7A7101655D62000214947 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70E7A7111655D62000214947 /* AppKit.framework */,
+				70E7A7121655D62000214947 /* CoreData.framework */,
+				70E7A7131655D62000214947 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		70E7A7141655D62000214947 /* reaper glowz */ = {
+			isa = PBXGroup;
+			children = (
+				70E7A7201655D62000214947 /* AppDelegate.h */,
+				70E7A7211655D62000214947 /* AppDelegate.m */,
+				70E7A7231655D62000214947 /* MainMenu.xib */,
+				70E7A7151655D62000214947 /* Supporting Files */,
+			);
+			path = "reaper glowz";
+			sourceTree = "<group>";
+		};
+		70E7A7151655D62000214947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70E7A7161655D62000214947 /* reaper glowz-Info.plist */,
+				70E7A7171655D62000214947 /* InfoPlist.strings */,
+				70E7A71A1655D62000214947 /* main.m */,
+				70E7A71C1655D62000214947 /* reaper glowz-Prefix.pch */,
+				70E7A71D1655D62000214947 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70E7A7311655D62000214947 /* reaper glowzTests */ = {
+			isa = PBXGroup;
+			children = (
+				70E7A7371655D62000214947 /* reaper_glowzTests.h */,
+				70E7A7381655D62000214947 /* reaper_glowzTests.m */,
+				70E7A7321655D62000214947 /* Supporting Files */,
+			);
+			path = "reaper glowzTests";
+			sourceTree = "<group>";
+		};
+		70E7A7321655D62000214947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70E7A7331655D62000214947 /* reaper glowzTests-Info.plist */,
+				70E7A7341655D62000214947 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70E7A7091655D62000214947 /* reaper glowz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E7A73C1655D62000214947 /* Build configuration list for PBXNativeTarget "reaper glowz" */;
+			buildPhases = (
+				70E7A7061655D62000214947 /* Sources */,
+				70E7A7071655D62000214947 /* Frameworks */,
+				70E7A7081655D62000214947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "reaper glowz";
+			productName = "reaper glowz";
+			productReference = 70E7A70A1655D62000214947 /* reaper glowz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70E7A72A1655D62000214947 /* reaper glowzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E7A73F1655D62000214947 /* Build configuration list for PBXNativeTarget "reaper glowzTests" */;
+			buildPhases = (
+				70E7A7261655D62000214947 /* Sources */,
+				70E7A7271655D62000214947 /* Frameworks */,
+				70E7A7281655D62000214947 /* Resources */,
+				70E7A7291655D62000214947 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70E7A7301655D62000214947 /* PBXTargetDependency */,
+			);
+			name = "reaper glowzTests";
+			productName = "reaper glowzTests";
+			productReference = 70E7A72B1655D62000214947 /* reaper glowzTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E7A7011655D62000214947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = drglow;
+			};
+			buildConfigurationList = 70E7A7041655D62000214947 /* Build configuration list for PBXProject "reaper glowz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70E7A6FF1655D62000214947;
+			productRefGroup = 70E7A70B1655D62000214947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E7A7091655D62000214947 /* reaper glowz */,
+				70E7A72A1655D62000214947 /* reaper glowzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70E7A7081655D62000214947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7A7191655D62000214947 /* InfoPlist.strings in Resources */,
+				70E7A71F1655D62000214947 /* Credits.rtf in Resources */,
+				70E7A7251655D62000214947 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E7A7281655D62000214947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7A7361655D62000214947 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70E7A7291655D62000214947 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E7A7061655D62000214947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7A71B1655D62000214947 /* main.m in Sources */,
+				70E7A7221655D62000214947 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E7A7261655D62000214947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7A7391655D62000214947 /* reaper_glowzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70E7A7301655D62000214947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70E7A7091655D62000214947 /* reaper glowz */;
+			targetProxy = 70E7A72F1655D62000214947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70E7A7171655D62000214947 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E7A7181655D62000214947 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70E7A71D1655D62000214947 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E7A71E1655D62000214947 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		70E7A7231655D62000214947 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E7A7241655D62000214947 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		70E7A7341655D62000214947 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E7A7351655D62000214947 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70E7A73A1655D62000214947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		70E7A73B1655D62000214947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		70E7A73D1655D62000214947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "reaper glowz/reaper glowz-Prefix.pch";
+				INFOPLIST_FILE = "reaper glowz/reaper glowz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70E7A73E1655D62000214947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "reaper glowz/reaper glowz-Prefix.pch";
+				INFOPLIST_FILE = "reaper glowz/reaper glowz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		70E7A7401655D62000214947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/reaper glowz.app/Contents/MacOS/reaper glowz";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "reaper glowz/reaper glowz-Prefix.pch";
+				INFOPLIST_FILE = "reaper glowzTests/reaper glowzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		70E7A7411655D62000214947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/reaper glowz.app/Contents/MacOS/reaper glowz";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "reaper glowz/reaper glowz-Prefix.pch";
+				INFOPLIST_FILE = "reaper glowzTests/reaper glowzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E7A7041655D62000214947 /* Build configuration list for PBXProject "reaper glowz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E7A73A1655D62000214947 /* Debug */,
+				70E7A73B1655D62000214947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E7A73C1655D62000214947 /* Build configuration list for PBXNativeTarget "reaper glowz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E7A73D1655D62000214947 /* Debug */,
+				70E7A73E1655D62000214947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70E7A73F1655D62000214947 /* Build configuration list for PBXNativeTarget "reaper glowzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E7A7401655D62000214947 /* Debug */,
+				70E7A7411655D62000214947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E7A7011655D62000214947 /* Project object */;
+}
